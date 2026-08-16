@@ -1,1 +1,722 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grandes pintores.</title>
+     <!--FONT  AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <!--FONT OSWALD-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+<!--CUSTOM CSS-->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shorcut icon" type="image/x-icon" href="img/download.ico">
+    
+</head>
+<style>
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+    background: #000;
+    color: rgb(11, 1, 1);
+    background:  url('img/paisajex.jpg') no-repeat center center/cover;
+    font-size:16px;
+    font-family: 'Oswald', sans-serif;
+}
+h3{
+font-size :15px;
+font-family: 'Oswald', sans-serif;
+
+margin-left:10px;
+
+}
+
+.h1{
+    font-size: 100px;
+    text-align: center;
+}
+.h2{
+    text-align: center;
+    color:white;
+}
+.container-video{
+    display: flex ;
+    display: inline;
+    text-align: center;
+    padding: 20px;
+    
+   
+}
+.container-video .video{
+   
+    border: 12px rgb(112, 93, 93) solid; 
+    margin-bottom: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+font-family:;
+background:re;
+margin-left:100px;
+
+}
+.container{
+    width: 90%;
+    margin: auto;
+
+}
+/*Navigation*/
+.nav-main {
+    font-size: 17px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px;
+}
+
+.nav-brand{
+    width: 45px;
+border-radius:6px;
+}
+/*NAV LEFT*/
+.nav-main ul {
+    display: flex;
+}
+
+.nav-main ul li {
+    padding: 10px;
+}
+.nav-main ul li a {
+    padding: 2px;
+}
+.nav-main ul li a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.nav-main ul.nav-menu{
+    flex: 1;
+    margin-left: 20px;
+}
+
+.menu-btn {
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 30px;
+    z-index: 2;
+    display: none;
+}
+
+
+/* SHOWCASE */
+
+hr{
+    margin: 10px 0;
+}
+.showcase{
+    width: 100%;
+    height: 500px;
+    background: url('img/bomitandoAgua.png') repeat center center/cover;
+    padding: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    color:white;
+}
+
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #262626;
+    color:#fff;
+    font-size: 15px;
+    border: 1px solid #fff;
+}
+
+.btn:hover {
+    opacity: .7;
+
+}
+
+.showcase h2,
+.showcase p {
+    margin-bottom: 10px;
+}
+
+.nav-main ul.nav-menu-right {
+    margin-right: 40px;
+}
+
+/*NEWS CARDS*/
+.news-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:25px;
+    margin: 10px 0;
+}
+.news-cards img{
+    width: 100%;
+    height: 180px;
+}
+
+.news-cards a{
+    padding: 10px 0;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.news-cards a:hover{
+    text-decoration: underline;
+}
+
+/*CARDS BANNER ONE*/
+.cards-banner-one{
+    color: #fff;
+    
+    width: 100%;
+    height: 350px;
+    background: url('img/tech-red.jpg') ;
+}
+
+/*-CARDS BANNER ONE-*/
+
+.cards-banner-one .content {
+    width: 40%;
+    padding: 90px 0 0 30px;
+    color:#fff;""
+}
+.cards-banner-one p,
+.cards-banner-one h2 {
+    margin: 10px 0 20px 0;
+}
+
+
+/*--CARDS BANNER TWO*/
+
+.cards-banner-two {
+    width: 100%;
+    height: 350px;
+    color: #fff;
+    background: url('img/pastel1.jpg') no-repeat center center/cover;
+
+}
+
+.cards-banner-two .content {
+    width: 50%;
+    padding: 100px 0 0 30px;
+   
+}
+
+
+/*--SOCIAL*/
+
+.social p {
+
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.links{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    color:black;
+}
+
+.links a {
+    margin: 0 30px;
+color:white;
+
+}
+.links a i {
+    font-size: 3rem;
+background:;
+}
+}
+
+/*FOOTER LINKS*/
+.footer-links{
+    background: linear-gradient(to bottom, #888888, #ffffff);
+    color:black;
+    font-size: 20px;
+    padding: 35px 0;
+   color:black;
+
+}
+
+.footer-container{
+    display: flex;
+    grid-template-columns: repeat 
+    (12,1fr);
+    gap: 0px;
+    align-items: flex-start;
+    justify-content:right;
+   color:black;
+}
+
+
+
+.footer-container ul {
+    margin: 0 auto;
+   display:block;
+  justify-content: right;
+  align-items: lef;
+background-color: clear;
+gap:0px;
+}
+
+.footer-container ul li {
+    line-height:;
+   background:clear;
+ color:black;
+
+}
+
+.footer {
+    background: #2f3640;
+    color: #616161;
+    font-size: 12px;
+    padding: 50px 0;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 100px;
+    color:white;
+    margin-left:0px;
+}
+.footer-container ul li a{
+color:black;
+padding:0px;
+margin-left;0;
+
+}
+
+@media (max-width: 700px) {
+
+        .menu-btn{
+            display: block;
+        }
+
+        .nav-main ul.nav-menu {
+        display: block;
+        position:absolute;
+        top: 0;
+        left: 0;
+        background: #2f3640;
+        height: 100%;
+        padding:  30px;
+        opacity: .9;
+        transform: translateX(-400px);
+        transition: transform .5s ease-in-out;
+    }
+
+    .nav-main ul.nav-menu.show {
+        transform: translateX(-20px);
+
+    }
+
+    .nav-main ul.nav-menu li{
+        padding: 20px;
+        border-bottom: #ccc solid 1px;
+        font-size: 14px;
+    }
+    .news-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cards-banner-one .content,
+    .cards-banner-two .content
+    {
+        width: 80%;
+    }
+
+    .footer-links .footer-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 500px){
+    .news-cards {
+        grid-template-columns: 1fr;
+      }
+
+      .news-cards img {
+        height: 270px;
+      }
+
+      .cards-banner-one .content,
+      .cards-banner-two .content
+      {
+        width: 100%;
+        padding: 60px 20px;
+      }
+
+      .footer-links .footer-container {
+        grid-template-columns:4, 1fr;
+color:black;
+
+      }
+    }
+.footer-container.ul.li.a.h3{
+color:black;
+
+}
+.footer-container.h3{
+color:black;
+display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+</style>
+
+<body>
+
+    <div class="menu-btn">
+        <i class="fas fa-bars fa-2x"></i>
+    </div>
+
+    <div class="container">
+        <nav class="nav-main">
+            <img src="img/caritaFeliz.jpg" alt="techNews LOGO" class="nav-brand">
+<h3></h3>
+           <ul class="nav-menu ">
+<li>
+     <a href="https://cnnespanol.cnn.com/2021/05/31/salvator-mundi-disputa-1000-millones-dolares-leonardo-da-vinci-lado-oscuro-mundo-arte-trax/" target="_blank">NOTICIAS</a>
+</li>
+<li>
+    <a href="">TIENDITA</a>
+
+</li>
+<li><a href="#b-section">DONACIONES</a>
+</li>
+                <li>
+                    <a href="MURALES/index.html">MURALES</a>
+                </li>
+                <li>
+                    <a href="#">ACUARELAS</a>
+                </li>
+                <li>
+                    <a href="#">CARBONCILLO</a>
+                </li>
+                <li>
+                    <a href="#">GOACHE</a>
+                </li>
+                <li>
+                    <a href="BLOG/index.html">BlOG</a>
+                </li>
+                <li>
+                    <a href="GRAFITI/index.html">GRAFITI</a>
+                </li>
+<li><a href="">DIBUJO</a>
+</li>
+<li>
+     <a href="ARQUITECTURA/main.html">PASTEL</a>
+</li>       
+      <ul class="nav-menu-right">   
+            </ul>
+        </nav>
+        <hr>
+
+        <!--SHOWCASE-->
+        <header class="showcase">
+            <h1>El Arte a traves de los tiempos.</h1>
+            <p>pasado.
+            </p><p>apresente y futuro.</p>
+            <a href="gares.html" class="btn">Read More<i class="fas fa-angle-double-right"></i></a>
+        
+        </header>   
+         <!--News Cards--> 
+         <div class="news-cards">
+            <div>
+                <img src="img/martinez1.jpg" alt="news 1">
+                <h3>martinezQ el niño 2023</h3>
+                <p>Lapiz sobre Papel 30cm x 25cm
+                </p>
+                <a href="#" class="btn">Learn more <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            
+            <div>
+              <img src="img/martinez2.jpg" alt="news 1">
+                <h3>martinezQ La vendedora de flores 2023</h3>
+                <p>Pintura acrilica sobre lienso. 30cm x25cm
+                </p>
+                <a href="#" class="btn">Learn more <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+             <img src="images/mujer(1).png" alt="news 1">
+                <h3>Johannes Vermeer</h3>
+           <p> a lechera, 1660-1661. Óleo sobre lienzo, 45,4 x 41 cm, Ámsterdam, .</p>
+                <a href="htps://youtu.be/De4CmFZv7Q8?si=gTGz89w8o0Q7jAvv" target="_blank" class="btn">Learn more <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="images/ne.gif" alt="news 1">
+                <h3>Vincent van Gogh, “La noche estrellada”,2020 (digitalizacion)</h3>
+                <p> Noche estrellada esun gif y es una representacion grafica digital del la hobra del gran artista vicente van gog digitalizada y covertida en una hermosa version digotal. </p>
+                <a href="#" class="btn">Learn more <i class="fas fa-angle-double-right"></i></a>
+            </div>
+         </div>
+
+         <section class="cards-banner-one">
+            <div class="content" id="b-section">
+                <h2>SI TIENES ALGUN CUADRO QUE DEEAS DONAR O  PONER A LA VENTA O SUBASTARLO SUSCRIBIRTE AQUI:</h2>
+                <p> contacto:</p>
+                <a href="contacto.html" class="btn">Read More<i class="fas fa-angle-double-right"></i></a>
+            </div>
+         </section>
+
+         <div class="news-cards">
+            <div>
+                <img src="images/kandisky.gif" alt="news 1">
+                <h3>Wasilly kandisky gif. KNdisky digitalizado</h3>
+                <p>Kandisky en la era digital.</p>
+                <a href="https://youtu.be/81fkBLlzvcM?si=XlKK7cvhm8Q8V8Be" class="btn">Learn more <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="images/joanmiro(2).jpg" alt="news 1">
+                <h3>Joan miro 1.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis corrupti modi, fugit omnis iusto error delectus ab asperiores sunt saepe? Nemo iure ipsum rerum maxime hic sunt cupiditate nesciunt natus.</p>
+                <a href="https://youtu.be/yDWPOkrJ0B8?si=22i7-nAJ3CGnxilA" class="btn" target="_blank">Learn more <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="images/joanmiro(3).jpg" alt="news 1">
+                <h3>Joan miro 3.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis corrupti modi, fugit omnis iusto error delectus ab asperiores sunt saepe? Nemo iure ipsum rerum maxime hic sunt cupiditate nesciunt natus.</p>
+                <a href="https://youtu.be/F_lNeD8OXxg?si=41bdNHGiYNup4wIU" class="btn" target="_blank">Learn more <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="images/kandisky(3).jpg" alt="news 1">
+                <h3>Kandisky 3.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis corrupti modi, fugit omnis iusto error delectus ab asperiores sunt saepe? Nemo iure ipsum rerum maxime hic sunt cupiditate nesciunt natus.</p>
+                <a href="#" class="btn">Learn more <i class="fas fa-angle-double-right"></i></a>
+            </div>
+        mnc </div>
+
+         <section class="cards-banner-two">
+            <div class="container">
+                <h2>GRANDES PINTORES</h2>
+                <p> Del Pasado y del presente.</p>
+
+                <a href="#" class="btn">Learn More<i class="fas fa-angle-double-right"></i></a>
+            </div>
+         </section>
+
+         <section class="social">
+            <p>Follow Me</p>
+            <div class="links">
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://github.com/vick2021">
+                    <i class="fab fa-github"></i>
+                </a>
+
+            </div>
+         </section>
+    </div>
+
+    <div class="footer-links">
+        <div class="footer-container">
+            <ul>
+                <li>
+                    <a href="SanPablo.html">
+                        <h3>1.-San Pablo Ave</h3>
+                    </a>
+                </li><hr>
+                <li>
+                    <a href="KANDISKY/index.html">
+                        <h3>2.-Wasilly  Kandisky</h3>
+                    </a>
+                </li><hr>
+                <li>
+                    <a href="#">
+                        <h3>3.-Rembrand</h3>
+                    </a>
+                </li><hr>
+                <li>
+                    <a href="#">
+                        <h3>4.-Pablo Picazo</h3>
+                    </a>
+                </li><hr>
+                <li>
+                    <a href="Rivera/index.html">
+                        <h3>5.-Diego Rivera</h3>
+                    </a>
+                </li><hr>
+                <li>
+                    <a href="#">
+                        <h3>6.-Frida Kalo</h3>
+                    </a>
+                </li><hr>
+                <li>
+                    <a href="#">
+                    <h3>7.-Jose C. Orosco</h3>
+                    </a>
+                </li><hr>
+            </ul>
+            <ul>
+                <li>
+                    <a href="PINTORES/MATISSE/matisse.html">
+                        <h3>8.-Henry Matisse</h3>
+                    </a>
+                </li><hr>
+                <li>
+                    <a href="#">
+                    <h3>9.-Claude Monet</h3>
+                    </a>
+                </li><hr>
+                <li>
+                    <a href="#">
+                        <h3>10.-Willem de Kooning.</h3>
+                    </a>
+                </li><hr>
+                <li>
+                    <a href="#">
+                        <h3>-11
+Jackson Pollock. </h3>
+                    </a>
+                </li><hr>
+                <li>
+                    <a href="#">
+                        <h3>12.-Rene Magritte</h3>
+                    </a>
+                </li><hr>
+                <li>
+                    <a href="DALI/index.html">
+                        <h3>13
+-Salvador Dali</h3>
+                    </a>
+                </li><hr>
+               
+            </ul>
+            <ul>
+                <li>
+                    <a href="PINTORES/ROTKO/rotko.html">
+              <h3>14.-Mark Rothko</h3>
+                    </a>
+                </li><hr>
+                <li>
+                    <a href="#">
+               <h3></h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                       <h3>15
+-Caravaggio.</h3>
+                    </a>
+                </li><hr>
+                <li>
+                    <a href="#">
+                        <h3>16.-Paul Gauguin</h3>
+                    </a>
+                </li><hr>
+                <li>
+                    <a href="#">
+                     <h3>17.-Odilon Redon</h3>
+                    </a>
+                </li><hr>
+                <li>
+                    <a href="#">
+                        <h3>18.-Roy Lichtenstein</h3>
+                    </a>
+                </li><hr>
+<li>
+     <a href="https://www.ttamayo.com/2016/10/edgar-degas-tecnica-pintura-al-pastel/" target="_blank"><h3>19.-Edgar Degas</h3></a></li><hr>
+                
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <h3>20
+-Leonardo d Vinci</h3>
+                    </a>
+                </li><hr>
+                <li>
+                    <a href="#">
+                        <h3>21.-Mark Chagall</h3>
+                    </a>
+                </li><hr>
+                <li>
+                    <a href="#">
+                        <h3>22.-Mark  Ernst</h3>
+                    </a>
+                </li><hr>
+                <li>
+                    <a href="#">
+                 <h3>23
+-Juan gris</h3>
+                    </a>
+                </li><hr>
+                <li>
+                    <a href="PINTORES/DUCHAMP/index.html">
+                 <h3>24
+-Marcel Duchamp</h3>
+                    </a>
+                </li><hr>
+                <li>
+                    <a href="#">
+                        <h3>25.-kjgjjth</h3>
+                    </a>
+                </li><hr>
+<!--<li>
+     <a href="https://www.ttamayo.com/2016/10/edgar-degas-tecnica-pintura-al-pastel/" target="_blank"><h3>33.-Edgar Degas</h3></a></li><hr>-->
+                <li>
+                    <a href="PINTORES/index.html">
+                     <h3>mas》》</h3>
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+
+<!--SCROLL REVEAL-->
+      <script src="https://unpkg.com/scrollreveal"></script>
+      <!--CUSTOM JS--> 
+ <script src="main.js"></script>
+
+    <footer class="footer">
+        <h3>victor developer Copyright todos los derechos reservados</h3>
+    </footer>
+<script>
+document.querySelector('.menu-btn').addEventListener('click',() =>{
+  document.querySelector('.nav-menu').classList.toggle('show');
+});
+
+ScrollReveal().reveal('.showcase');
+ScrollReveal().reveal('.news-cards',{delay: 500});
+ScrollReveal().reveal('.cards-banner-one',{delay: 500});
+ScrollReveal().reveal('.cards-banner-two',{delay: 500});
+
+</script>
+</body>
+</html>
 
